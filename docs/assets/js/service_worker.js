@@ -1,12 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'instag-caches';
 var urlsToCache = [
-    '/kazsh2016.github.io/instag/index.html',
-    '/kazsh2016.github.io/instag/assets/js/index.js',
-    '/kazsh2016.github.io/instag/assets/js/service_worker.js',
-    '/kazsh2016.github.io/instag/assets/js/data.json',
-    '/kazsh2016.github.io/instag/assets/css/reset.css',
-    '/kazsh2016.github.io/instag/assets/css/style.css',
+    '/instag/index.html',
 ];
 
 // インストール処理

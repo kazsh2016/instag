@@ -4,19 +4,19 @@
     "display":"standalone",
     "icons":[
         {
-            "src":"https://kazsh2016.github.io/instag/assets/images/icon192.jpg",
+            "src":"/instag/assets/images/icon192.jpg",
             "sizes":"192x192",
             "type":"image/jpeg"
         },
         {
-            "src":"https://kazsh2016.github.io/instag/assets/images/icon512.jpg",
+            "src":"/instag/assets/images/icon512.jpg",
             "sizes":"512x512",
             "type":"image/jpeg"
         }
     ],
     "name":"Instag",
     "short_name":"Instag",
-    "start_url":"/",
+    "start_url":"/instag/",
     "theme_color":"#ffffff",
-    "scope":"/"
+    "scope":"/instag/"
 }
