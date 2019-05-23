@@ -12,7 +12,7 @@
         }
     }
     var r = Math.random();
-    xmlHttpRequest.open( 'GET', 'assets/js/data.json?' + r , true );
+    xmlHttpRequest.open( 'GET', 'assets/js/data.json?' , true );
     xmlHttpRequest.responseType = 'json';
     xmlHttpRequest.send( null );
 })();
