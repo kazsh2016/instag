@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132460076-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-132460076-1');</script>
+    <meta charset="utf-8"/>
+    <title>Instag (beta) #camp</title>
+    <meta name="description" content="Instagramで使うキャンプ系のハッシュタグを簡単に生成します">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="ab-cl">Instag (beta) #camp</h1>
+        <p class="ab-cr"><span id="tagTotal" class="tagTotal">22</span></p>
+    </header>
+    <section class="content">
+        <article id="gearTags">
+            <h2>ギア系<button class="view-setting-button js-setting-button">表示設定</button><button class="add-button js-add-button" style="display:none;">ハッシュタグを追加</button></h2>
+            <ul id="gearTagsList" class="taglist fixed"></ul>
+        </article>
+        <article id="gearTagsSetting" class="settingView">
+            <h3 class="settings title">表示設定</h3>
+            <ul id="gearTagsSettingList"></ul>
+            <div class="button-wrapper"><button class="js-setting-ok-button">保存</button><button class="js-setting-cancel-button">キャンセル</button></div>
+        </article>
+        <article id="gearTagsAdd" class="gearTagsAddView">
+            <h3 class="settings title">ハッシュタグの追加</h3>
+            <input class="js-input-hashtag" type="text" name="hashtag" size="30" maxlength="150"><button class="add-button js-add-hashtag-button">追加</button>
+        </article>
+
+        <article id="shareTags">
+            <h2>拡散系<button class="view-setting-button js-setting-button">表示設定</button></h2>
+            <ul id="shareTagsList" class="taglist fixed"></ul>
+        </article>
+        <article id="shareTagsSetting" class="settingView">
+            <h3 class="settings title">表示設定</h3>
+            <ul id="shareTagsSettingList"></ul>
+            <div class="button-wrapper"><button class="js-setting-ok-button">保存</button><button class="js-setting-cancel-button">キャンセル</button></div>
+        </article>
+
+        <article id="campTags">
+            <h2>camp系<button class="view-setting-button js-setting-button">表示設定</button></h2>
+            <p id="js-random-button" class="random-button"></p>
+            <ul id="campTagsList" class="taglist"></ul>
+        </article>
+        <article id="campTagsSetting" class="settingView">
+            <h3 class="settings title">表示設定</h3>
+            <ul id="campTagsSettingList"></ul>
+            <div class="button-wrapper"><button class="js-setting-ok-button">保存</button><button class="js-setting-cancel-button">キャンセル</button></div>
+        </article>
+    
+        <article>
+            <p id="tags" class="tags"></p>
+            <textarea id="tags_textarea" style="position:fixed;top:-1000px;display:block;"></textarea>
+            <p id="js-copy-button" class="copy-button">COPY</p>
+        </article>
+        </section>
+    <footer class="footer">
+        <p><a class="copyright" href="https://www.instagram.com/kazsh/">(C)2019 KAZUTOSHI SHIRAI</a></p>
+        <p style="display:none;"><span class="lastupdate">update:2019/02/19　15:54<br>タグリストを外部読み込みに変更</span></p>
+        <p><span class="lastupdate">update:2019/02/19　16:54<br>空白タグを削除</span></p>
+    </footer>
+</body>
+<script src="assets/js/index.js?201905041330"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-9254426434462255",enable_page_level_ads: true});</script>
+</html>
