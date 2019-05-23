@@ -68,4 +68,13 @@
 <script src="assets/js/index.js?201905041330"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-9254426434462255",enable_page_level_ads: true});</script>
+<script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('assets/js/service_worker.js').then(function(registration) {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function(err) {
+        console.log('ServiceWorker registration failed: ', err);
+    });
+    }
+</script>
 </html>
