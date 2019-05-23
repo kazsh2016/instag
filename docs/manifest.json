@@ -4,14 +4,14 @@
     "display":"standalone",
     "icons":[
         {
-            "src":"/instag/assets/images/icon192.jpg",
+            "src":"/instag/assets/images/icon192.png",
             "sizes":"192x192",
-            "type":"image/jpeg"
+            "type":"image/png"
         },
         {
-            "src":"/instag/assets/images/icon512.jpg",
+            "src":"/instag/assets/images/icon512.png",
             "sizes":"512x512",
-            "type":"image/jpeg"
+            "type":"image/png"
         }
     ],
     "name":"Instag",
