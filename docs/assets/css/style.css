@@ -72,7 +72,7 @@ html,body {
     border: 1px solid #eee;
     color: #555;
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;    
