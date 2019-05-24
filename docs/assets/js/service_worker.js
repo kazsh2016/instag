@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'instag-caches';
 var urlsToCache = [
-    '/instag/index.html',
+    '/instag',
 ];
 
 // インストール処理

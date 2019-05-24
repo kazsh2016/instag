@@ -72,7 +72,7 @@ html,body {
     border: 1px solid #eee;
     color: #555;
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;    
@@ -80,7 +80,8 @@ html,body {
 #gearTagsList .tag,
 #shareTagsList .tag,
 #campTagsList .tag {
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+    font-size: 1.0em;
 }
 
 .tag.invisible {
