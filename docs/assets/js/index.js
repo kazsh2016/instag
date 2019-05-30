@@ -67,7 +67,7 @@ var createTags = function(){
         var t = document.createElement("li");
         t.classList.add("tag");
         if ( invisible ) t.classList.add("invisible");
-        t.textContent = tag;
+        t.innerHTML = "<span class='firstCharactor'>" + tag.substr(0,1) + "</span>" + tag.substr(1);
         e.appendChild(t);
 
         // setting用リストの生成
