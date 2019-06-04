@@ -18,5 +18,7 @@
     "short_name":"Instag",
     "start_url":"/instag/",
     "theme_color":"#ffffff",
-    "scope":"/instag/"
+    "scope":"/instag/",
+    "gcm_sender_id": "781205625909",
+    "gcm_user_visible_only": true
 }
