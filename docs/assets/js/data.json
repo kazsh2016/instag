@@ -15,7 +15,7 @@
         {"yeti":["yeti","イエティ","yeticooler","yeticoolers","yetibucket","yetiloadoutbucket","yetiloadoutgobox"]},
         {"kermitchair":["kermitchair","カーミットチェア"]},
         {"naturehike":["naturehike","エセスシル"]},
-        {"cu_being":["cu_being","cocaテーブル"]},
+        {"studiocu_being":["cu_being","studiocu_being","mocaテーブル","cocaテーブル"]},
         {"nemoequipment":["nemoequipment","pentalite4p","hexalite6p","ニーモヘキサライト6p"]},
         {"bestmadeco":["bestmadeco","ベストメイド"]},
         {"sierradesigns":["sierradesigns","シエラデザインズ"]},
@@ -60,7 +60,7 @@
         {"fujika":["fujika","フジカ","フジカハイペット"]},
         {"catapultfactory":["catapultfactory","catapult","fika","フィーカ","fika12","RockHopperGloves","ロックホッパーグローブ"]},
         {"windyandrainy":["windyandrainy","スターライトタープ","STARLIGHTTARP","スターライトタープUL"]},
-        {"lafumamobilier":["lafumamobilier"]},
+        {"lafumamobilier":["lafumamobilier","lafuma"]},
         {
             "wechseltents": [
                 "wechseltents",
